@@ -10,8 +10,13 @@ const UserDetail = (username,userage,userhobbies) => {
     return('User named ' + username + ' of age ' + userage + ' has Hobbies '+ userhobbies);
 }
 // assign the function value of a+b to the constant add 
-const add = (a,b)=> a+b
+const add = (a,b)=> a+b;
 
+
+const addTwo = a => a+2;
+
+
+console.log(addTwo(5));
 //call the constant add keyword and enter the desire number for output 
-console.log(add(2,2))
-console.log(UserDetail(name,age,hobbies))
+console.log(add(2,2));
+console.log(UserDetail(name,age,hobbies));
