@@ -15,9 +15,10 @@ const add = (a,b)=> a+b;
 // Use one variable for function so we will not use paranthesis.
 const addTwo = a => a+2;
 
+// added a random addition function here we don't need give any argument. just give any values
+const addRandom = () => 1+4; 
 
-const addRandom = () => 1+3; 
-
+// As we have already passed value and method in the function we don't need to add any additional values.
 console.log(addRandom())
 // Call the function by passing only one value to it.
 console.log(addTwo(5));
