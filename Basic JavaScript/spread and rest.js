@@ -1,10 +1,14 @@
 // Spread and rest operator
+
+// array declared
 const hobbies = ['sports','coading'];
 
+// object declared
 const person = {
     name : 'Faizan',
     age : 22,
 }
+// copy of the original object.
 const copiedObject = {...person}
 console.log(copiedObject);    
 
