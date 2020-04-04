@@ -34,6 +34,7 @@ console.log(copiedArray);
 // We use rest operator 
 // rest is declare in the same way as spread ie with three dots
 // The place that we use it define what we call it.
+// In spread we pull in rest we merge.
 
 const toArray = (...args) =>{
     return args
