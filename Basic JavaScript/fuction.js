@@ -1,5 +1,5 @@
 var name = "faizan"
-var age = 21
+var age = 22
 var hobbies = true
 
 function UserDetail(username,userage,userhobbies) {
