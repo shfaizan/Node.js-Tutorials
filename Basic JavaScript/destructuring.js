@@ -4,8 +4,17 @@ const person = {
     age : 22,
 };
 
-const PrintDetail = (PersonData) =>
-{
-    return(person.name)
-}
-console.log(PrintDetail(person))
+//  Here we have use a normal function for extracting the elements
+// // const PrintDetail = (PersonData) =>
+// // {
+// //     return(person.name)
+// // }
+
+// Here we will use object destucturing syntax with the function
+const PrintDetail = ({name,age}) => {console.log(name)};  
+PrintDetail(person)
+
+// We can also use destructuring without using function
+const {name,age} = person
+
+console.log(name,age)
