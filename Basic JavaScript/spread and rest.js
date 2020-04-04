@@ -8,7 +8,8 @@ const hobbies = ['sports','coading'];
 // //const copiedArray = hobbies.slice();
 
 // This created the exact copy of the original array.
-// This is spred operator the three dot pre array name
+// This is spred operator the three dot pre array name 
+// (They pull out all the element or the property of array or the object)
 const copiedArray = [...hobbies]
 
 console.log(copiedArray)
