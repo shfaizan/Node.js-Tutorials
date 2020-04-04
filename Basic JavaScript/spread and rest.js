@@ -1,6 +1,13 @@
 // Spread and rest operator
 const hobbies = ['sports','coading'];
 
+const person = {
+    name : 'Faizan',
+    age : 22,
+}
+const copiedObject = {...person}
+console.log(copiedObject);    
+
 // This is the nested array and not the exact copy of the real array.
 // // const copiedArray = [hobbies];
 
