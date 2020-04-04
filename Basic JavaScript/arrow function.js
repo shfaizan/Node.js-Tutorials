@@ -9,4 +9,9 @@ const UserDetail = (username,userage,userhobbies) => {
     return('User named ' + username + ' of age ' + userage + ' has Hobbies '+ userhobbies);
 }
 
+const add = (a,b)=> {
+    return(a+b);
+}
+
+console.log(add(2,3))
 console.log(UserDetail(name,age,hobbies))
