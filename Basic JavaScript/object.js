@@ -8,7 +8,14 @@ const person = {
     // // greet : () => {
     // //     console.log('Hi I am '+ this.name)
     // // }
-    greet : function() {
+
+    //  we have to use the function keyword to access the local variable in the object.
+    // // greet : function() {
+    // //     console.log('Hi I am '+ this.name)
+    // // }
+
+    // Here we do the same thing without writing the function keyword.
+    greet() {
         console.log('Hi I am '+ this.name)
     }
 };
