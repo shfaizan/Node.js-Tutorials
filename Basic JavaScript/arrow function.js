@@ -1,11 +1,11 @@
 // Same as the function.js but here we use the 'let' and 'const' instead of var
 const name = "faizan"
-let age = 22
+let age = 21
 const hobbies = true
 
-age= 23;
+age= 22;
 
-function UserDetail(username,userage,userhobbies) {
+UserDetail = function (username,userage,userhobbies) {
     return('User named ' + username + ' of age ' + userage + ' has Hobbies '+ userhobbies);
 }
 
