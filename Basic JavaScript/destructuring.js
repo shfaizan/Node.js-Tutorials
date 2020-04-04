@@ -18,8 +18,9 @@ PrintDetail(person)
 const {name,age} = person
 console.log(name,age)
 
-
+// new array declared
 const hobbies = ['sports','coading'];
 
+// array destructuring NOTE: we use curly {} for object and use square [] for array
 const [hobby1,hobby2] = hobbies
 console.log(hobby1,hobby2)
