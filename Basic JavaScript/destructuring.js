@@ -16,5 +16,10 @@ PrintDetail(person)
 
 // We can also use destructuring without using function
 const {name,age} = person
-
 console.log(name,age)
+
+
+const hobbies = ['sports','coading'];
+
+const [hobby1,hobby2] = hobbies
+console.log(hobby1,hobby2)
