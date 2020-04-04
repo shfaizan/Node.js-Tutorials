@@ -5,7 +5,7 @@ const hobbies = true
 
 age= 22;
 
-UserDetail = function (username,userage,userhobbies) {
+const UserDetail = function (username,userage,userhobbies) {
     return('User named ' + username + ' of age ' + userage + ' has Hobbies '+ userhobbies);
 }
 
