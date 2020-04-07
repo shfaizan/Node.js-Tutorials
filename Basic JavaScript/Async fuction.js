@@ -1,5 +1,6 @@
 // This is the asyncronous function
 // asyncronous code because it doesn't run Immediately
+// TODO : There is still something missing like creating constructor
 
 const fetchData = callback => {
     setTimeout(() => {
