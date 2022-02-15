@@ -24,13 +24,13 @@
 // let a = () => {}
 
 // Shows type as Function when it is Class
-// class a {
-//     constructor(f,l,e){
-//         this.f = f;
-//         this.l = l;
-//         this.e = e; 
-//     }
-// }
+class a {
+    constructor(f,l,e){
+        this.f = f;
+        this.l = l;
+        this.e = e; 
+    }
+}
 
 // Undefined
 // let a =undefined;
